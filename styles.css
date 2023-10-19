@@ -16,6 +16,8 @@
     animation-name: imgslider;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+	 background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+            url("bg.jpg");
 }
 .marquee-container {
     width: 100%;
@@ -57,28 +59,7 @@
     }
 }
 
-@keyframes imgslider {
-    0% {
-        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-            url("https://pbs.twimg.com/media/DTE7AXPU0AAo5YS?format=jpg&name=4096x4096");
-    }
-    25% {
-        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-            url("https://live.staticflickr.com/500/32016727613_9b31a24557_b.jpg");
-    }
-    50% {
-        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-            url("https://upload.wikimedia.org/wikipedia/commons/7/7f/Mohiniyaattam_at_Kerala_School_Kalolsavam_2023_%2821%29.jpg");
-    }
-    75% {
-        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-            url("https://kite.kerala.gov.in/KITE/itsadmin/uploads/gallery/11/263.jpg");
-    }
-    100% {
-        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-            url("https://www.expresskerala.com/wp-content/uploads/2023/01/Kerala-School-Kalolsavam-1-.jpg");
-    }
-}
+
 
 .text-box {
     width: 90%;
