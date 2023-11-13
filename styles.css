@@ -17,7 +17,7 @@
     animation-duration: 10s;
     animation-iteration-count: infinite;
 	 background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-            url("bg.jpg");
+            url("https://schoolwiki.in/images/thumb/d/dd/Cover14031-2022.jpeg/1200px-Cover14031-2022.jpeg");
 }
 .marquee-container {
     width: 100%;
